@@ -1,0 +1,39 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package bai.tap.tuan.pkg2;
+
+import javax.swing.JFrame;
+
+/**
+ *
+ * @author Tran Huu Vinh
+ */
+public class Bai_1 extends JFrame {
+
+    public Bai_1() {
+
+
+
+        super("Demo Windows");
+
+
+
+        setDefaultCloseOperation(EXIT_ON_CLOSE); 
+
+
+
+    }
+
+
+    public static void main(String[] args) {
+
+
+        Bai_1 ui = new Bai_1();
+        ui.setSize(400, 300); // set Width =400 and height =300
+        ui.setLocationRelativeTo(null); // Display windows on desktop center screen
+        ui.setVisible(true); // Show the windows
+}
+}
